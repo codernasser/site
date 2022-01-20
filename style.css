@@ -6,7 +6,7 @@
 }
 
 header{
-    background: linear-gradient(45deg , #77dbed 59%, #3d60b5 30%);
+ background: #000000a1;
     width: 100%;
     position: fixed; 
     z-index: 999;
@@ -14,6 +14,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding :20px 200px;
+    backdrop-filter: blur(15px);
 }
 .navgation{
     float: right;
